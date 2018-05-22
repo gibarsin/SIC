@@ -1,0 +1,8 @@
+dist: trusty
+language: c
+compiler: gcc
+script:
+  - cd client
+  - make clean all
+  - cd ../server
+  - make clean all
